@@ -1,0 +1,21 @@
+body{
+    background-image:url('../images/flight.jpg');
+    background-repeat: no repeat;
+    
+}
+
+#container{
+    width:1140px;
+    min-height: 1000px;
+    margin:auto auto;
+    border:3px solid #fcfcfc;
+    background-color: white;
+
+}
+.row{
+    min-height: 10px;
+}
+.col100{
+    width: 100%;
+    min-height: 30px;
+}

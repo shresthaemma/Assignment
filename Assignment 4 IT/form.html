@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device=width,initial-scale=1.0">
+  <meta name="author" content="Seema Shrestha">
+  <title>Book Now</title>
+  <body>
+      <div id="container"
+      <form name="Book Now" method="POST" action="" enctype="multipart/form-data">
+        
+        Name <input type="text" name="name" required/><br><br>
+        Phone <input type="text" name="phone" required/><br><br>
+        Email <input type="email" name="email" required/><br><br>
+
+                    <fieldset>
+                    <legend>Which transportation do you prefer? </legend>
+                        <table border=0 cellpadding=8 cellspacing=5>
+                            
+                                    <tr>
+                                            <td><input type="radio" name="vehicle" value="c"> Car</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="radio" name="vehicle" value="v"> Van</td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="radio" name="vehicle" value="t"> Tuk Tuk</td>
+                                        </tr>
+
+                         </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Extras</legend>
+                            <table border=0 cellpading= 8 cellspacing=5>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="Baby seat" value="Baby seat" checked>Baby seat<br><br><br>
+                                        <input type="checkbox" name="Wheelchair Access" value="Wheelchair Access" checked>Wheelchair Access<br><br><br>
+                                        <input type="checkbox" name="Stock Tip" value="Stock Tip" checked>Stock Tip<br><br><br>
+
+                                    </td>
+                                </tr>
+                                </table>
+
+                    </fieldset>
+                    Pickup Date/Time <input type="datetime-local" name="time"/><br><br>
+                    Pickup Place <select name="place" size=1>
+                <option value="s">Select One</option>
+                <option value="k">Kathmandu</option>
+                <option value="b">Bhaktapur</option>
+                <option value="l">Lalitpur</option>
+            </select><br><br>
+            Dropoff Place <input type="text" name="place" required><br><br>
+            Special Instruction <textarea name="message" rows=2 cols=23></textarea><br><br>
+            <input type="submit" name="submit" value="Submit Booking"/>
+
+    </form>
+     </div>
+  </body>
